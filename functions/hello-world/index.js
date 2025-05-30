@@ -3,7 +3,7 @@ module.exports = async function (req, res) {
     const payload = req.payload || {};
     
     // 函数逻辑
-    const message = `Hello ${payload.name || 'World'}!`;
+    const message = `Hello ${payload.name || 'World1'}!`;
     
     // 返回响应
     res.json({
